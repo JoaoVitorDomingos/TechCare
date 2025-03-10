@@ -1,0 +1,33 @@
+@charset "UTF-8";
+@import url(./base.css);
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--fundo_light);
+}
+
+h1, h2, h3 {
+    font-family: var(--titulo);
+    color: var(--cor_azul);
+}
+
+p {
+    font-family: var(--texto);
+    color: var(--cor_txtPrincipal_light);
+}
+
+a {
+    font-family: var(--menu_link);
+    color: var(--cor_cinza);
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    cursor: pointer;
+    text-decoration: underline;
+}

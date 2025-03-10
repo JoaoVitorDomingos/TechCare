@@ -1,0 +1,53 @@
+Paleta de Cores:
+   Light Mode:
+	Fundo - #ffffff (branco)
+	Cor Primária - #007bff (azul)
+	Cor Secundária: #6c757d (cinza)
+	Texto Principal: #212529 (preto suave)
+	Destaque/CTA: #fcbf49 (amarelo/laranja)
+   Dark Mode:
+	Fundo: #343a40 (cinza escuro)
+	Cor Primária: #6c757d (cinza)
+	Cor Secundária: #007bff (azul)
+	Texto Principal: #ffffff (branco)
+	Destaque/CTA: #fcbf49 (amarelo/laranja)
+
+Fontes:
+   Fonte Principal (Título e Cabeçalhos): Roboto Slab
+   Fonte Secundária (Texto e Parágrafos): Open Sans
+   Fonte para Botões e CTAs: Poppins 
+   Fonte para Itens de Menu ou Links: Montserrat 
+
+Estrutura:
+   Header:
+	Logo: No canto esquerdo.
+	Menu: Links rápidos para seções como "Serviços", "Contato", "Sobre" e "Solicitar Assistência".
+	Botão de Dark e Light Mode
+	Botões de Idioma: Escolha de idioma entre PT-BR e EN no canto superior direito.
+	Botão de Contato (WhatsApp): Um botão de destaque para contato rápido via WhatsApp.
+   Hero Section
+	Imagem de fundo: Uma imagem de um computador ou ferramenta de manutenção.
+	Texto chamativo: Algo como "Seu computador precisa de cuidados? Nós cuidamos disso para você!".
+	Call to Action (CTA): Um botão "Solicitar Assistência" que leva ao formulário de contato.
+   Sobre
+	A TechCare é uma empresa especializada em manutenção e suporte de computadores, oferecendo serviços rápidos e confiáveis para garantir o bom funcionamento do seu equipamento. Com uma equipe qualificada e soluções personalizadas, atendemos tanto empresas quanto usuários domésticos, sempre com foco em oferecer a melhor experiência ao cliente. Seja para otimizar o desempenho do seu PC, remover vírus ou realizar upgrades, a TechCare é sua parceira ideal para tudo relacionado a tecnologia.
+   Seção de Serviços
+	Título: "Nossos Serviços de Manutenção"
+	Serviços: Manutenção Preventiva e Corretiva, Formatação e Instalação de Sistemas, Remoção de Vírus e Malware, Otimização de Desempenho, Troca de Peças e Upgrades
+   Área de Depoimento
+	Título: "O que nossos clientes dizem"
+	Depoimentos
+	   José Almeida – Empresário
+		A TechCare foi fundamental para nossa empresa! Nosso sistema estava com vários problemas de desempenho e, graças à equipe, conseguimos resolver tudo rapidamente. Além disso, o atendimento foi super atencioso e profissional. Recomendo a todos!
+	   Maria Souza – Usuária Doméstica
+		Eu estava desesperada com meu computador cheio de vírus, mas a TechCare foi incrível! Fizeram uma limpeza profunda, otimizaram o sistema e ainda me deram várias dicas para manter tudo funcionando melhor. O serviço foi rápido e o preço justo!
+	   Carlos Ferreira – Freelancer
+		Excelente serviço! Meu computador estava travando muito e parecia que estava com um problema mais grave. A TechCare fez a manutenção, e agora meu PC está rodando como novo. Fiquei muito satisfeito com o atendimento e o resultado final!
+
+   Área de Contato
+	Formulário de Contato
+	Dados de Contato
+   Rodapé
+	Links úteis, como "Política de Privacidade" e "Termos de Serviço".
+	Informações de copyright.
+	

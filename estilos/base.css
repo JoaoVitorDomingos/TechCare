@@ -1,0 +1,16 @@
+:root {
+    /* Paleta de Cores */
+    --fundo_light: #ffffff;
+    --funco_dark: #343a40;
+    --cor_azul: #007bff;
+    --cor_cinza: #6c757d;
+    --cor_txtPrincipal_light: #212529;
+    --cor_txtPrincipal_dark: #ffffff;
+    --destaque_cta: #fcbf49;
+
+    /* Fontes */
+    --titulo: "Roboto Slab", serif;
+    --texto: "Open Sans", sans-serif;
+    --botoes_cta: "Poppins", sans-serif;
+    --menu_link: "Montserrat", sans-serif;
+}
