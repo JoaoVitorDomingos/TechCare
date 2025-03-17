@@ -44,6 +44,10 @@ a:hover, a:focus {
     font-weight: bold;
 }
 
+section:not(section#hero) {
+    padding: 40px;
+}
+
 /* Estilo Geral Botão */
 
 .btn {
@@ -57,6 +61,17 @@ a:hover, a:focus {
     color: black;
 
     box-shadow: 2px 2px 3px 0px var(--_btn-shadow);
+
+    transition: 
+        font-weight .5s,
+        text-decoration .5s;
+}
+
+.btn:hover {
+    cursor: pointer;
+    box-shadow: none;
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 /* Botão Whatsapp */
