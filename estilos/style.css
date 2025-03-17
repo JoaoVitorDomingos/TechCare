@@ -7,27 +7,113 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: var(--fundo_light);
+/* HEADER */
+header #menu {
+    display: none;
 }
 
-h1, h2, h3 {
-    font-family: var(--titulo);
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .icone_menu {
+    font-size: 1.875rem;
     color: var(--cor_azul);
 }
 
-p {
-    font-family: var(--texto);
-    color: var(--cor_txtPrincipal_light);
-}
-
-a {
-    font-family: var(--menu_link);
+header .icone_menu:hover {
     color: var(--cor_cinza);
-    text-decoration: none;
 }
 
-a:hover, a:focus {
+header #menu_check {
+    display: none;
+}
+
+header #menu_expandido {
+    position: absolute;
+    top: -100%;
+    left: 0;
+    z-index: 10;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: var(--cor_azul);
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+
+    transition: .4s ease-in;
+}
+
+header #menu_check:checked ~ #menu_expandido {
+    top: 0;
+}
+
+
+
+#menu_expandido :where(i, p, a) {
+    color: white;
+    transition: .4s;
+}
+
+#menu_expandido :where(i, p, a):hover {
     cursor: pointer;
-    text-decoration: underline;
+    color: var(--cor_cinza);
+}
+
+#menu_expandido > div.menu_header {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    padding: 25px 30px;
+
+    border-bottom: 1px solid rgba(224, 217, 217, 0.395);
+}
+
+#menu_expandido > div.menu_header :where(i, p) {
+    font-size: 1.875rem;
+}
+
+#menu_expandido > div.menu_header > i:first-child {
+    margin-right: 30px;
+}
+
+#menu_expandido > div.menu_header label {
+    margin-left: auto;
+}
+
+#menu_expandido nav ul {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+
+    list-style-type: none;
+}
+
+#menu_expandido nav a {
+    font-size: 1.875rem;
+}
+
+#menu_expandido nav ul > li:not(li:last-child) {
+    margin-bottom: 40px;
+}
+
+#menu_expandido div.menu_footer {
+    padding: 25px 30px;
+    border-top: 1px solid rgba(224, 217, 217, 0.395);
+
+    display: flex;
+    justify-content: center;
+}
+
+#menu_expandido div.menu_footer p.btn_whats {
+    display: inline;
+    font-size: 1.5rem;
 }

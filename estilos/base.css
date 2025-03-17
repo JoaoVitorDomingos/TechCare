@@ -7,10 +7,77 @@
     --cor_txtPrincipal_light: #212529;
     --cor_txtPrincipal_dark: #ffffff;
     --destaque_cta: #fcbf49;
+    --color_whats: #97FF3C;
 
     /* Fontes */
     --titulo: "Roboto Slab", serif;
     --texto: "Open Sans", sans-serif;
     --botoes_cta: "Poppins", sans-serif;
     --menu_link: "Montserrat", sans-serif;
+}
+
+/* Estilos Gerais */
+
+body {
+    background-color: var(--fundo_light);
+}
+
+h1, h2, h3 {
+    font-family: var(--titulo);
+    color: var(--cor_azul);
+}
+
+p {
+    font-family: var(--texto);
+    color: var(--cor_txtPrincipal_light);
+}
+
+a {
+    font-family: var(--menu_link);
+    color: var(--cor_cinza);
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* Estilo Geral Botão */
+
+.btn {
+    --_btn-shadow: var(--btn-shadow, rgba(0, 0, 0, 0.366));
+
+    border: 1px solid transparent;
+    border-radius: 16px;
+
+    padding: .25em 1.25em;
+
+    color: black;
+
+    box-shadow: 2px 2px 3px 0px var(--_btn-shadow);
+}
+
+/* Botão Whatsapp */
+
+.btn_whats {
+    background-color: var(--color_whats);
+    color: black !important;
+    /* --btn-shadow: #97ff3c4c; */
+    transition: .4s;
+}
+
+.btn_whats i {
+    color: black !important;
+}
+
+.btn_whats:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.btn_whats:hover i {
+    font-weight: bold;
 }

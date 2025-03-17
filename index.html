@@ -18,8 +18,53 @@
     <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
-    <h1>Teste</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, vel adipisci ab unde doloribus nam magni veniam molestias eaque voluptates aperiam voluptatem sed, fugit ipsam voluptatibus reprehenderit architecto explicabo amet.</p>
-    <a href="#">Link</a>
+    <header>
+        <div id="menu_responsivo">
+            <label for="menu_check"><i class="fa-solid fa-bars icone_menu"></i></label>
+            <input type="checkbox" name="menu_check" id="menu_check">
+
+            <div id="menu_expandido">
+                <div class="menu_header">
+                    <i class="fa-solid fa-sun"></i>
+                    <p class="language">BR</p>
+                    <label for="menu_check"><i class="fa-solid fa-x"></i></label>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="#">Serviços</a></li>
+                        <li><a href="#">Depoimentos</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </nav>
+                <div class="menu_footer">
+                    <p class="btn btn_whats">
+                        <i class="fa-brands fa-whatsapp"></i>
+                        Whatsapp
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div id="menu">
+            <img src="imgs/logo/logo_i.png" alt="Logo da TechCare">
+            <nav>
+                <ul>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#">Depoimentos</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+            <div>
+                <i class="fa-solid fa-sun"></i>
+                <p class="language">BR</p>
+                <p class="btn btn_whats">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    Whatsapp
+                </p>
+            </div>
+        </div>
+    </header>
 </body>
 </html>
