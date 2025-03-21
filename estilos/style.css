@@ -169,3 +169,130 @@ header #menu_check:checked ~ #menu_expandido {
     margin-bottom: 50px;
     border-radius: 69px;
 }
+
+
+/* SOBRE SECTION */
+
+main > section#sobre {
+    background-color: var(--cor_cinza);
+    margin-top: 0;
+    padding-top: 80px;
+}
+
+#sobre p {
+    color: white;
+    font-size: 1.375rem;
+    text-indent: 20px;
+    width: 25ch;
+    margin-inline: auto;
+    margin-bottom: 30px;
+}
+
+#sobre img {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+
+/* SERVIÇOS */
+
+#servicos .container_servicos {
+    margin-top: 60px;
+
+    display: grid;
+    grid-template-columns: 100%;
+    row-gap: 70px;
+    justify-items: center;
+}
+
+#servicos > .container_servicos > .servico {
+    --_cor-icone: var(--cor-icone, black);
+    --_cor-sombra: var(--cor-sombra, rgba(0, 0, 0, 0.366));
+    --_cor-botao-hover: var(--cor-botao-hover, var(--cor_txtPrincipal_light));
+
+    display: flex;
+    flex-flow: column;
+
+    border-radius: 24px;
+
+    background-color: #F8F9FA;
+
+    padding: 20px;
+    margin-left: 15px;
+
+    width: 80%;
+    min-height: 320px;
+
+    box-shadow: 
+        3px 3px 4px 1px rgba(0, 0, 0, 0.381),
+        -19px -23px 6px 2px var(--_cor-sombra);
+}
+
+.servico > i {
+    font-size: 2.75rem;
+    color: var(--_cor-icone);
+}
+
+.servico > h3 {
+    color: black;
+    font-size: 1.5rem;
+    margin: 10px auto;
+}
+
+.servico > p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.servico > button {
+    display: block;
+    margin: auto;
+    padding: .5em 2em;
+    border-radius: 23px;
+    font-size: .9rem;
+    transition: background-color .5s ease-in;
+}
+
+.servico > button:hover {
+    background-color: var(--_cor-botao-hover);
+    color: white;
+    text-decoration: none;
+}
+
+#servicos .ser_remocao {
+    --cor-icone: #DC3545;
+    --cor-sombra: #F8D7DA;
+    --cor-botao-hover: #DC3545;
+}
+
+#servicos .ser_formatacao {
+    --cor-icone: #FD7E14;
+    --cor-sombra: #FFE5D0;
+    --cor-botao-hover: #FD7E14;
+}
+
+#servicos .ser_otimizacao{
+    --cor-icone: #0D6EFD;
+    --cor-sombra: #CCE5FF;
+    --cor-botao-hover: #0D6EFD;
+}
+
+#servicos .ser_upgrade{
+    --cor-icone: #6F42C1;
+    --cor-sombra: #E2D9F3;
+    --cor-botao-hover: #6F42C1;
+}
+
+#servicos .ser_recuperacao{
+    --cor-icone: #198754;
+    --cor-sombra: #D4EDDA;
+    --cor-botao-hover: #198754;
+}
+
+#servicos .ser_manutencao{
+    --cor-icone: #FFC107;
+    --cor-sombra: #FFF3CD;
+    --cor-botao-hover: #FFC107; 
+}
+

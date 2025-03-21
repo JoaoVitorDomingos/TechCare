@@ -27,6 +27,12 @@ h1, h2, h3 {
     color: var(--cor_azul);
 }
 
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
 p {
     font-family: var(--texto);
     color: var(--cor_txtPrincipal_light);
@@ -46,6 +52,7 @@ a:hover, a:focus {
 
 section:not(section#hero) {
     padding: 40px;
+    margin-top: 40px;
 }
 
 /* Estilo Geral Botão */
@@ -58,13 +65,16 @@ section:not(section#hero) {
 
     padding: .25em 1.25em;
 
+    
+    font-family: var(--botoes_cta);
     color: black;
 
     box-shadow: 2px 2px 3px 0px var(--_btn-shadow);
 
     transition: 
-        font-weight .5s,
-        text-decoration .5s;
+        font-weight .5s ease-in,
+        text-decoration .5s ease-in,
+        box-shadow .5s ease-in;
 }
 
 .btn:hover {
