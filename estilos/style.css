@@ -445,3 +445,119 @@ form input[type="submit"]:focus {
     color: var(--cor_azul);
     font-weight: bold;
 }
+
+
+/* FOOTER */
+
+footer {
+    padding: 40px;
+    padding-top: 60px;
+    background-color: var(--cor_cinza);
+}
+
+footer :where(p, a, i) {
+    color: white;
+}
+
+footer p {
+    text-align: justify;
+}
+
+footer ul {
+    list-style: none;
+}
+
+.footer_dados > div {
+    margin-bottom: 60px;
+}
+
+footer h3 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.footer_dados > .footer_tech p:first-of-type {
+    margin-bottom: 15px;
+}
+
+.footer_dados > .footer_tech p:last-of-type {
+    text-align: start;
+}
+
+.footer_dados > .footer_tech p:last-of-type > span:first-of-type {
+    margin-right: 10px;
+    padding-right: 10px;
+    border-right: 1px solid white;
+}
+
+.footer_dados > .footer_tech p:last-of-type > span:hover {
+    color: var(--cor_azul);
+    text-decoration: underline;
+}
+
+.footer_dados > .footer_duvidas p {
+    margin-bottom: 15px;
+}
+
+.footer_dados > .footer_duvidas i {
+    font-size: 1.2rem;
+}
+
+.footer_dados > .footer_duvidas i:nth-child(2n) {
+    margin-inline: 10px;
+}
+
+.footer_dados > .footer_duvidas i:hover {
+    color: var(--cor_azul);
+    font-weight: bold;
+}
+
+.footer_dados > .footer_nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer_dados > .footer_nav li {
+    margin-left: 20px;
+}
+
+.footer_dados > .footer_nav li:not(li:last-of-type) {
+    margin-bottom: 15px;
+}
+
+.footer_dados > .footer_nav a:hover {
+    color: var(--cor_azul);
+}
+
+.footer_rodape {
+    /* border-top: 1px solid white; */
+    padding-top: 25px;
+    position: relative;
+}
+
+.footer_rodape::before {
+    content: "";
+    display: block;
+    border-top: 1px solid rgba(255, 255, 255, 0.267);
+    width: 115%;
+
+    position: absolute;
+    top: 0;
+    left: 50%;
+    translate: -50%;
+    transform-origin: center;
+}
+
+.footer_rodape p {
+    text-align: center;
+}
+
+.footer_rodape p:first-child {
+    margin-bottom: 10px;
+}
+
+.footer_rodape a {
+    color: var(--cor_azul);
+}
