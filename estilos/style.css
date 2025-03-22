@@ -365,3 +365,83 @@ section#depoimentos {
     font-size: 1.2rem;
     margin-bottom: 5px;
 }
+
+
+/* SECTION CONTATO */
+
+#contato > form {
+    margin-top: 30px;
+}
+
+form :where(input:not(input[type="submit"]), textarea) {
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    font-family: var(--texto);
+    padding: 10px;
+    background-color: #EDEDED;
+    border: none;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.393);
+}
+
+form :where(input:not(input[type="submit"]), textarea):focus {
+    outline-color: var(--cor_azul);
+    box-shadow: none;
+    background-color: #cfe5fd;
+}
+
+form textarea {
+    resize: none;
+}
+
+form input[type="submit"] {
+    background-color: #EDEDED;
+    font-size: .9rem;
+    padding: .5em 1.7em;
+    border: none;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.245);
+    transition: .5s;
+}
+
+form input[type="submit"]:hover,
+form input[type="submit"]:focus {
+    background-color: #cfe5fd;
+    font-weight: bold;
+    box-shadow: none;
+    outline: none;
+}
+
+#contato .contato_dados > div > h2 {
+    margin-top: 30px;
+    margin-bottom: 5px;
+    font-size: 1.8rem;
+}
+
+#contato .contato_dados > div > :where(p, div) {
+    margin-left: 20px;
+    font-size: 1.2rem;
+}
+
+#contato .contato_dados > div > p:hover {
+    color: var(--cor_azul);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#contato .contato_dados > div div {
+    margin-top: 10px;
+}
+
+#contato .contato_dados > div i {
+    font-size: 1.4rem;
+}
+
+#contato .contato_dados > div i:nth-child(2n) {
+    margin-inline: 10px;
+}
+
+#contato .contato_dados > div i:hover,
+#contato .contato_dados > div i:focus {
+    color: var(--cor_azul);
+    font-weight: bold;
+}
