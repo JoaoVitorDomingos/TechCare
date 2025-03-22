@@ -296,3 +296,72 @@ main > section#sobre {
     --cor-botao-hover: #FFC107; 
 }
 
+
+
+/* SECTION DEPOIMENTOS */
+
+section#depoimentos {
+    background-color: var(--cor_azul);
+}
+
+#depoimentos > h1 {
+    color: white;
+}
+
+#depoimentos .container_depoimentos {
+    display: grid;
+    grid-template-columns: 100%;
+    row-gap: 30px;
+    justify-items: center;
+}
+
+.depoimento {
+    background-color: white;
+    border-radius: 19px;
+    padding: 25px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.266);
+    min-height: 394px;
+}
+
+.depoimento > p {
+    text-align: justify;
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+    position: relative;
+}
+
+.depoimento > p::before {
+    content: open-quote;
+    font-family: fantasy;
+    font-size: 6rem;
+    color: var(--cor_azul);
+    position: absolute;
+    top: -50px;
+    left: 0;
+}
+
+.depoimento > p::after {
+    content: no-close-quote;
+}
+
+.depoimento > .depoimento_pessoa {
+    display: flex;
+    align-items: center;
+}
+
+.depoimento_pessoa img {
+    width: 35%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    margin-right: 15px;
+}
+
+.depoimento_pessoa .pessoa_nome {
+    color: var(--cor_azul);
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
