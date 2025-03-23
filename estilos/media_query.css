@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url("./base.css");
+/* @import url("./base.css"); */
 
 @media screen and (min-width: 768px) {
     html {
@@ -55,6 +55,22 @@
 
     #menu_expandido > div.menu_header > i:first-child {
         margin-right: 50px;
+    }
+
+
+    /* HERO SECTION */
+
+    #hero {
+        background-image: url("../imgs/hero/banner_1280.jpg");
+    }
+
+    #hero .hero_title {
+        font-size: 2rem;
+        margin-bottom: 30px;
+    }
+
+    #hero .hero_btn {
+        font-size: 1rem;
     }
 
 
