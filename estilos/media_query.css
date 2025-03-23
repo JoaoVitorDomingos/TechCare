@@ -1,0 +1,52 @@
+@charset "UTF-8";
+@import url("./base.css");
+
+@media screen and (min-width: 768px) {
+    html {
+        font-size: 25px;
+    }
+    
+    /* HEADER */
+
+    header {
+        padding: 30px 60px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header #menu {
+        display: block;
+
+        order: -1;
+    }
+
+    #menu :where(nav, div) {
+        display: none;
+    }
+
+    #menu img {
+        width: 80%;
+    }
+
+    header #menu_expandido {
+        top: 0;
+        right: -100%;
+        left: auto;
+
+        width: 70%;
+    }
+
+    header #menu_check:checked ~ #menu_expandido {
+        right: 0;
+    }
+
+
+
+
+    /* FOOTER */
+    .footer_rodape::before {
+        width: 90%;
+    }
+}
