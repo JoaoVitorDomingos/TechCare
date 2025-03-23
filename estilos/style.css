@@ -32,6 +32,10 @@ header #menu_check {
     display: none;
 }
 
+#menu_overlay {
+    display: none;
+}
+
 header #menu_expandido {
     position: fixed;
     top: -100%;
