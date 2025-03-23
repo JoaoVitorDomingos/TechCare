@@ -18,6 +18,10 @@
 
 /* Estilos Gerais */
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: var(--fundo_light);
 }
