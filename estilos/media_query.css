@@ -74,6 +74,16 @@
     }
 
 
+    /* SOBRE SECTION */
+
+    #sobre p {
+        font-size: 1.2rem;
+        text-align: justify;
+        width: 37ch;
+        margin-bottom: 50px;
+    }
+
+
 
 
     /* FOOTER */
