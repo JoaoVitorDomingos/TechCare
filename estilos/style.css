@@ -33,7 +33,7 @@ header #menu_check {
 }
 
 header #menu_expandido {
-    position: absolute;
+    position: fixed;
     top: -100%;
     left: 0;
     z-index: 10;
