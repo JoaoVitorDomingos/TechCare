@@ -109,6 +109,40 @@
     }
 
 
+    /* SECTION DEPOIMENTOS */
+
+    #depoimentos .container_depoimentos {
+        row-gap: 70px;
+    }
+
+    .depoimento {
+        padding: 35px;
+        width: 80%;
+        min-height: 430px;
+    }
+
+    .depoimento > p {
+        font-size: .8rem;
+        margin-top: 50px;
+    }
+
+    .depoimento > p::before {
+        top: -90px;
+    }
+
+    .depoimento_pessoa img {
+        width: 25%;
+    }
+
+    .depoimento_pessoa .pessoa_nome {
+        font-size: 1.1rem;
+    }
+
+    .depoimento_pessoa .pessoa_prof {
+        font-size: .8rem;
+    }
+
+
 
 
     /* FOOTER */
