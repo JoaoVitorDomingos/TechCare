@@ -84,6 +84,31 @@
     }
 
 
+    /* SERVIÇOS SECTION */
+
+    #servicos .container_servicos {
+        margin-top: 90px;
+    }
+
+    #servicos > .container_servicos > .servico {
+        width: min(310px, 44%);
+        min-height: 400px;
+        margin-left: 30px;
+    }
+
+    .servico > h3 {
+        font-size: 1.3rem;
+    }
+
+    .servico > p {
+        font-size: 1rem;
+    }
+
+    .servico > button {
+        font-size: .8rem;
+    }
+
+
 
 
     /* FOOTER */
