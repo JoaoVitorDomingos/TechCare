@@ -326,4 +326,19 @@
         width: 80%;
     }
 
+    /* FOOTER */
+    footer .footer_dados {
+        display: grid;
+        grid-template-columns: 45% 45%;
+        column-gap: 10%;
+    }
+
+    .footer_dados .footer_nav {
+        grid-column: 1 / 3;
+    }
+
+    .footer_dados :where(a, p) {
+        font-size: .9rem;
+    }
+
 }
