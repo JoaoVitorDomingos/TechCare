@@ -298,4 +298,22 @@
         font-size: .7rem;
     }
 
+    /* DEPOIMENTOS */
+
+    .depoimento {
+        width: 547px;
+    }
+
+    .depoimento > p {
+        font-size: .8rem;
+    }
+
+    .depoimento_pessoa .pessoa_nome {
+        font-size: 1rem;
+    }
+
+    .depoimento_pessoa .pessoa_prof {
+        font-size: .8rem;
+    }
+
 }
