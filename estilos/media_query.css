@@ -394,5 +394,15 @@
         width: 40%;
         order: 0;
     }
+
+    /* SERVIÇOS */
+    #servicos .container_servicos {
+        grid-template-columns: 32% 32% 32%;
+        gap: 90px 20px;
+    }
+
+    #servicos > .container_servicos > .servico {
+        margin: 0;
+    }
     
 }
