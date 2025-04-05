@@ -178,10 +178,30 @@
     }
 
 
-
-
     /* FOOTER */
-    .footer_rodape::before {
-        width: 90%;
+    .footer_dados > div {
+        margin-bottom: 80px;
     }
+
+    footer h3 {
+        font-size: 1.7rem;
+    }
+
+    .footer_dados > .footer_duvidas i {
+        font-size: 1.4rem;
+    }
+
+    .footer_dados > .footer_duvidas i:nth-child(2n) {
+        margin-inline: 30px;
+    }
+
+    .footer_rodape::before {
+        width: 100%;
+    }
+
+    .footer_rodape p:first-child {
+        margin-bottom: 20px;
+    }
+
+
 }
