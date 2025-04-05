@@ -259,6 +259,14 @@
     #menu div .btn_whats {
         font-size: .875rem;
         padding-inline: 1em;
+        
+        display: flex;
+        align-items: center;
+    }
+
+    #menu div .btn_whats > i {
+        margin-right: 5px;
+        font-size: 1rem;
     }
 
     #menu div p {
@@ -341,4 +349,33 @@
         font-size: .9rem;
     }
 
+}
+
+/* PC */
+@media screen and (min-width: 1200px) {
+    /* HEADER */
+    #menu img {
+        width: 10%;
+    }
+
+    #menu ul li:not(:last-of-type) {
+        margin-right: 30px;
+    }
+
+    #menu ul a {
+        font-size: 1rem;
+    }
+
+    #menu div .btn_whats {
+        font-size: 1rem;
+    }
+
+    #menu div .btn_whats > i {
+        font-size: 1.2rem;
+    }
+
+    #menu div p {
+        margin-left: 25px;
+    }
+    
 }
