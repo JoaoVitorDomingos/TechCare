@@ -205,3 +205,69 @@
 
 
 }
+
+/* Note */
+@media screen and (min-width: 1024px) {
+    /* HEADER */
+    header {
+        display: block;
+    }
+
+    #menu_responsivo {
+        display: none;
+    }
+
+    header #menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #menu img {
+        width: 15%;
+    }
+
+    #menu nav {
+        display: inline-block;
+    }
+
+    #menu ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+    }
+
+    #menu ul a {
+        font-size: .9rem;
+        color: var(--cor_txtPrincipal_light);
+    }
+
+    #menu ul li:not(:last-of-type) {
+        margin-right: 10px;
+    }
+
+    #menu div {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+
+    #menu div > :where(i, .language) {
+        font-size: 1.3rem;
+    }
+
+    #menu div .btn_whats {
+        font-size: .875rem;
+        padding-inline: 1em;
+    }
+
+    #menu div p {
+        margin-left: 10px;
+    }
+
+    #menu :where(a, i, p):hover {
+        cursor: pointer;
+        color: var(--cor_cinza);
+    }
+
+}
