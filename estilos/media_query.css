@@ -339,6 +339,7 @@
         display: grid;
         grid-template-columns: 45% 45%;
         column-gap: 10%;
+        justify-content: center;
     }
 
     .footer_dados .footer_nav {
@@ -435,7 +436,6 @@
         width: 100%;
         display: flex;
         flex-direction: column;
-        
     }
 
     #contato .contato_dados > div:nth-child(odd) > h2 {
@@ -446,4 +446,35 @@
         margin-top: auto;
     }
     
+
+    /* FOOTER */
+    footer .footer_dados {
+        grid-template-columns: 32% 32% 25%;
+        column-gap: 50px;
+    }
+
+    .footer_dados h3 {
+        text-align: start;
+    }
+
+    .footer_dados > .footer_tech img {
+        display: block;
+        width: 25%;
+    }
+
+    .footer_dados i:not(.sociais i) {
+        display: block;
+        color: var(--cor_azul);
+        text-align: start;
+        font-size: 2.5rem;
+    }
+
+    .footer_dados .footer_nav {
+        grid-column: auto;
+        align-items: start;
+    }
+
+    .footer_dados > .footer_nav li {
+        margin-left: 0;
+    }
 }

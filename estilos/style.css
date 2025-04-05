@@ -481,6 +481,10 @@ footer h3 {
     margin-bottom: 10px;
 }
 
+.footer_dados > .footer_tech img {
+    display: none;
+}
+
 .footer_dados > .footer_tech p:first-of-type {
     margin-bottom: 15px;
 }
@@ -564,4 +568,8 @@ footer h3 {
 
 .footer_rodape a {
     color: var(--cor_azul);
+}
+
+.footer_dados :where(.fa-question, .fa-location-arrow) {
+    display: none;
 }
