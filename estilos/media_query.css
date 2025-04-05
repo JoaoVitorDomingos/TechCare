@@ -377,5 +377,20 @@
     #menu div p {
         margin-left: 25px;
     }
+
+    /* SOBRE */
+    #sobre > div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #sobre p {
+        font-size: 1rem;
+    }
+
+    #sobre img {
+        width: 40%;
+    }
     
 }
