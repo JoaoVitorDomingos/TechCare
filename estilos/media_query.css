@@ -275,4 +275,27 @@
         width: 70%;
     }
 
+    /* SERVIÇOS */
+    #servicos .container_servicos {
+        grid-template-columns: 45% 45%;
+    }
+
+    #servicos > .container_servicos > .servico {
+        width: 311px;
+        min-height: 360px;
+        margin-left: 100px;
+    }
+
+    .servico > h3 {
+        font-size: 1.1rem;
+    }
+
+    .servico > p {
+        font-size: .875rem;
+    }
+
+    .servico > button {
+        font-size: .7rem;
+    }
+
 }
