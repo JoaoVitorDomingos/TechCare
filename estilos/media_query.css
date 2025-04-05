@@ -316,4 +316,14 @@
         font-size: .8rem;
     }
 
+    /* CONTATO */
+    #contato > form {
+        width: 80%;
+        margin-block: 70px;
+    }
+
+    #contato .contato_dados {
+        width: 80%;
+    }
+
 }
