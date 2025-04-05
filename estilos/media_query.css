@@ -387,10 +387,12 @@
 
     #sobre p {
         font-size: 1rem;
+        order: 1;
     }
 
     #sobre img {
         width: 40%;
+        order: 0;
     }
     
 }
