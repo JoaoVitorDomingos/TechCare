@@ -382,17 +382,20 @@
     /* SOBRE */
     #sobre > div {
         display: flex;
-        align-items: center;
+        align-items: start;
         justify-content: center;
     }
 
     #sobre p {
         font-size: 1rem;
         order: 1;
+        margin: 0;
     }
 
     #sobre img {
-        width: 40%;
+        width: min(40%, 476px);
+        margin: 0;
+        margin-right: 60px;
         order: 0;
     }
 
@@ -400,6 +403,8 @@
     #servicos .container_servicos {
         grid-template-columns: 32% 32% 32%;
         gap: 90px 20px;
+        width: min(80%, 1268px);
+        margin-inline: auto;
     }
 
     #servicos > .container_servicos > .servico {
@@ -410,7 +415,9 @@
     #depoimentos .container_depoimentos {
         grid-template-columns: 45% 45%;
         justify-content: center;
-        column-gap: 80px;
+        gap: 40px 30px;
+        width: min(80%, 1268px);
+        margin-inline: auto;
     }
 
     /* CONTATO */
@@ -420,6 +427,8 @@
         grid-template-rows: auto auto;
         justify-content: center;
         row-gap: 50px;
+        width: min(80%, 1252px);
+        margin-inline: auto;
     }
 
     #contato h1 {
@@ -451,6 +460,8 @@
     footer .footer_dados {
         grid-template-columns: 32% 32% 25%;
         column-gap: 50px;
+        width: min(90%, 1585px);
+        margin-inline: auto;
     }
 
     .footer_dados h3 {

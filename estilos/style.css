@@ -409,6 +409,7 @@ form input[type="submit"] {
 
 form input[type="submit"]:hover,
 form input[type="submit"]:focus {
+    cursor: pointer;
     background-color: #cfe5fd;
     font-weight: bold;
     box-shadow: none;
@@ -427,6 +428,7 @@ form input[type="submit"]:focus {
 }
 
 #contato .contato_dados > div > p:hover {
+    cursor: pointer;
     color: var(--cor_azul);
     font-weight: bold;
     text-decoration: underline;
@@ -446,6 +448,7 @@ form input[type="submit"]:focus {
 
 #contato .contato_dados > div i:hover,
 #contato .contato_dados > div i:focus {
+    cursor: pointer;
     color: var(--cor_azul);
     font-weight: bold;
 }
@@ -502,6 +505,7 @@ footer h3 {
 .footer_dados > .footer_tech p:last-of-type > span:hover {
     color: var(--cor_azul);
     text-decoration: underline;
+    cursor: pointer;
 }
 
 .footer_dados > .footer_duvidas p {
@@ -517,6 +521,7 @@ footer h3 {
 }
 
 .footer_dados > .footer_duvidas i:hover {
+    cursor: pointer;
     color: var(--cor_azul);
     font-weight: bold;
 }
