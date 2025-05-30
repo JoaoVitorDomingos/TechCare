@@ -7,6 +7,14 @@
     box-sizing: border-box;
 }
 
+/* Classe que evita o scroll da pagina quando o menu se expandir */
+body.no-scroll {
+    overflow: hidden;
+    height: 100vh;
+    position: fixed;
+    width: 100%;
+}
+
 /* HEADER */
 header #menu {
     display: none;
