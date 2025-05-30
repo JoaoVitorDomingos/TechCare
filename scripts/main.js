@@ -11,3 +11,16 @@ checkbox.addEventListener("change", () => {
     }
 })
 
+// Irá fechar o menu expandido ao apertar em um dos links
+const linksMenu = [...document.querySelectorAll("#menu_expandido>nav>ul>li>a")]
+
+//console.log(linksMenu)
+
+linksMenu.forEach(link => {
+    link.addEventListener("click", () => {
+        checkbox.checked = false
+
+        checkbox.dispatchEvent(new Event("change"))
+    })
+})
+
