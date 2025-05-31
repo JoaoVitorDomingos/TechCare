@@ -24,3 +24,76 @@ linksMenu.forEach(link => {
     })
 })
 
+// Ativa ou Desativa o Dark Mode
+const iconesTheme = [...document.querySelectorAll(".theme-light"), ...document.querySelectorAll(".theme-dark")]
+
+function desativarIconesTheme(tipo) {
+    iconesTheme.forEach(icone => {
+        if(tipo == "light") {
+            if(icone.classList.contains("theme-light")) {
+                icone.style.display = "none"
+            } else {
+                icone.style.display = "block"
+            }
+        } else {
+            if(icone.classList.contains("theme-dark")) {
+                icone.style.display = "none"
+            } else {
+                icone.style.display = "block"
+            }
+        }
+    })
+}
+
+function ativarDarkMode() {
+    document.body.classList.add("dark-mode")
+    localStorage.setItem("darkMode", "ativado")
+    desativarIconesTheme("light")
+}
+
+function desativarDarkMode() {
+    document.body.classList.remove("dark-mode")
+    localStorage.setItem("darkMode", "desativado")
+    desativarIconesTheme("dark")
+}
+
+function acessarPrefUsu() {
+    let darkMode = localStorage.getItem("darkMode")
+
+    if(darkMode == null) {
+        const preferenciaUsu = window.matchMedia("(prefers-color-scheme: dark)").matches
+
+        if(preferenciaUsu) {
+            ativarDarkMode()
+        } else {
+            desativarDarkMode()
+        }
+        
+    } else {
+        if(darkMode == "ativado") {
+            ativarDarkMode()
+        } else {
+            desativarDarkMode()
+        }
+    }
+
+    
+}
+
+//console.log(iconesTheme)
+
+iconesTheme.forEach(icone => {
+    icone.addEventListener("click", evt => {
+        let darkMode = localStorage.getItem("darkMode")
+
+        //console.log(darkMode)
+
+        if(darkMode == "ativado") {
+            //console.log("desativar")
+            desativarDarkMode()
+        } else {
+            //console.log("ativar")
+            ativarDarkMode()
+        }
+    })
+})

@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+body.dark-mode {
+    background-color: var(--funco_dark);
+}
+
+body.dark-mode header #menu_expandido {
+    background-color: var(--cor_cinza);
+}
+
+body.dark-mode #menu :where(a, i, .language) {
+    color: white;
+}
+
+body.dark-mode #menu_expandido :where(i, p, a):hover {
+    color: var(--cor_azul);
+}
+
+body.dark-mode section#depoimentos {
+    background-color: var(--cor_cinza);
+}
+
+body.dark-mode #depoimentos > h1 {
+    color: var(--cor_azul);
+}
+
+body.dark-mode .depoimento {
+    background-color: var(--cor_azul);
+}
+
+body.dark-mode .depoimento > p {
+    color: white;
+}
+
+body.dark-mode .depoimento p.pessoa_prof {
+    color: white;
+}
+
+body.dark-mode .depoimento p::before {
+    color: var(--funco_dark);
+}
+
+body.dark-mode .depoimento .pessoa_nome {
+    color: var(--funco_dark);
+}
+
+body.dark-mode section#contato > form :where(input, textarea) {
+    color: white;
+    background-color: var(--cor_cinza);
+}
+
+body.dark-mode section#contato > form :where(input:not(input[type="submit"]), textarea)::placeholder {
+    color: rgba(255, 255, 255, 0.699);
+}
+
+body.dark-mode section#contato > form :where(input, textarea):focus,
+body.dark-mode section#contato > form :where(input, textarea):hover {
+    background-color: #a0a9b0;
+}
+
+body.dark-mode form :where(input:not(input[type="submit"]), textarea):focus {
+    outline-color: white;
+}
+
+body.dark-mode .contato_dados :where(p, i) {
+    color: white;
+}

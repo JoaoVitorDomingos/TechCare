@@ -17,8 +17,9 @@
     <link rel="stylesheet" href="estilos/base.css">
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/media_query.css">
+    <link rel="stylesheet" href="estilos/dark_mode.css">
 </head>
-<body>
+<body onload="acessarPrefUsu()">
     <header>
         <div id="menu_responsivo">
             <label for="menu_check"><i class="fa-solid fa-bars icone_menu"></i></label>
@@ -27,7 +28,10 @@
             <label for="menu_check" id="menu_overlay"></label>
             <div id="menu_expandido">
                 <div class="menu_header">
-                    <i class="fa-solid fa-sun"></i>
+                    <span class="icone_theme">
+                        <i class="fa-solid fa-sun theme-light"></i>
+                        <i class="fa-solid fa-moon theme-dark"></i>
+                    </span>
                     <p class="language">BR</p>
                     <label for="menu_check"><i class="fa-solid fa-x"></i></label>
                 </div>
@@ -59,7 +63,10 @@
                 </ul>
             </nav>
             <div>
-                <i class="fa-solid fa-sun"></i>
+                <span class="icone_theme">
+                    <i class="fa-solid fa-sun theme-light"></i>
+                    <i class="fa-solid fa-moon theme-dark"></i>
+                </span>
                 <p class="language">BR</p>
                 <p class="btn btn_whats">
                     <i class="fa-brands fa-whatsapp"></i>
