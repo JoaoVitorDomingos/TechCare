@@ -53,22 +53,18 @@
         "depoimento": {
             "d0": {
                 "paragrafo": "A TechCare foi fundamental para nossa empresa! Nosso sistema estava com vários problemas de desempenho e, graças à equipe, conseguimos resolver tudo rapidamente. Além disso, o atendimento foi super atencioso e profissional. Recomendo a todos!",
-                "nome": "José Almeida",
                 "prof": "Empresário"
             },
             "d1": {
                 "paragrafo": "Eu estava desesperada com meu computador cheio de vírus, mas a TechCare foi incrível! Fizeram uma limpeza profunda, otimizaram o sistema e ainda me deram várias dicas para manter tudo funcionando melhor. O serviço foi rápido e o preço justo!",
-                "nome": "Maria Souza",
                 "prof": "Usuária Doméstica"
             },
             "d2": {
                 "paragrafo": "Excelente serviço! Meu computador estava travando muito e parecia que estava com um problema mais grave. A TechCare fez a manutenção, e agora meu PC está rodando como novo. Fiquei muito satisfeito com o atendimento e o resultado final!",
-                "nome": "Carlos Ferreira",
                 "prof": "Freelancer"
             },
             "d3": {
                 "paragrafo": "A TechCare salvou minha vida acadêmica! Perdi todos os meus trabalhos e arquivos importantes da faculdade, e já achava que não tinha mais solução. A equipe foi super atenciosa, recuperou tudo rapidamente e me deixou tranquila durante o processo. Serviço impecável — recomendo de olhos fechados!",
-                "nome": "Ana Souza",
                 "prof": "Estudante"
             }
         }
@@ -83,12 +79,10 @@
         },
         "div": {
             "d0": {
-                "titulo": "Localização",
-                "paragrafo": "Rua Seila seila - 123"
+                "titulo": "Localização"
             },
             "d1": {
-                "titulo": "Telefone",
-                "paragrafo": "(99) 99999-9999"
+                "titulo": "Telefone"
             },
             "d2": {
                 "titulo": "Siga-nos"
@@ -98,7 +92,6 @@
     "footer": {
         "dados": {
             "d0": {
-                "titulo": "TechCare",
                 "paragrafo0": "Manutenção, otimização e segurança para seu computador. Cuidamos da sua tecnologia com eficiência e qualidade!",
                 "paragrafo1": "<span>Termos de Uso</span><span>Política de Privacidade</span>"
             },
