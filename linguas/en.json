@@ -1,0 +1,118 @@
+{
+    "nav": {
+        "link0": "About",
+        "link1": "Services",
+        "link2": "Testimonials",
+        "link3": "Contact"
+    },
+    "hero": {
+        "titulo": "Does your computer need care? <br> We take care of it for you!",
+        "btn": "Request Assistance"
+    },
+    "sobre": {
+        "titulo": "About",
+        "paragrafo": "TechCare is a company specialized in computer maintenance and support, offering fast and reliable services to ensure the proper functioning of your equipment. With a qualified team and customized solutions, we serve both companies and home users, always focusing on offering the best customer experience. Whether it's to optimize your PC's performance, remove viruses or perform upgrades, TechCare is your ideal partner for everything related to technology."
+    },
+    "servicos": {
+        "titulo": "Our Services",
+        "servico": {
+            "s0": {
+                "titulo": "Virus and Malware Removal",
+                "paragrafo": "Protect your computer from threats!",
+                "btn": "Request Service"
+            },
+            "s1": {
+                "titulo": "System Formatting and Reinstallation",
+                "paragrafo": "Your computer is like new!",
+                "btn": "Request Service"
+            },
+            "s2": {
+                "titulo": "Optimization and Performance",
+                "paragrafo": "Say goodbye to slowness!",
+                "btn": "Request Service"
+            },
+            "s3": {
+                "titulo": "Parts Exchange and Upgrade",
+                "paragrafo": "Need more power?",
+                "btn": "Request Service"
+            },
+            "s4": {
+                "titulo": "Data Recovery",
+                "paragrafo": "Lost important files?",
+                "btn": "Request Service"
+            },
+            "s5": {
+                "titulo": "Preventive maintenance",
+                "paragrafo": "Avoid problems before they happen!",
+                "btn": "Request Service"
+            }
+        }
+    },
+    "depoimentos": {
+        "titulo": "What our customers say",
+        "depoimento": {
+            "d0": {
+                "paragrafo": "TechCare was essential for our company! Our system was having several performance issues and, thanks to the team, we were able to resolve everything quickly. In addition, the service was super attentive and professional. I recommend it to everyone!",
+                "nome": "José Almeida",
+                "prof": "Businessperson"
+            },
+            "d1": {
+                "paragrafo": "I was desperate with my computer full of viruses, but TechCare was amazing! They did a deep cleaning, optimized the system and even gave me several tips to keep everything running better. The service was fast and the price was fair!",
+                "nome": "Maria Souza",
+                "prof": "Home User"
+            },
+            "d2": {
+                "paragrafo": "Excellent service! My computer was freezing a lot and it seemed like it had a more serious problem. TechCare did the maintenance, and now my PC is running like new. I was very pleased with the service and the end result!",
+                "nome": "Carlos Ferreira",
+                "prof": "Freelancer"
+            },
+            "d3": {
+                "paragrafo": "TechCare saved my academic life! I lost all my work and important files from college, and I thought there was no solution. The team was super helpful, recovered everything quickly and made me feel at ease during the process. Impeccable service — I recommend it with my eyes closed!",
+                "nome": "Ana Souza",
+                "prof": "Student"
+            }
+        }
+    },
+    "contato": {
+        "titulo": "Contact Form",
+        "form": {
+            "i0": "Enter your name",
+            "i1": "Enter you email",
+            "i2": "Enter your message",
+            "i3": "Send"
+        },
+        "div": {
+            "d0": {
+                "titulo": "Localization",
+                "paragrafo": "Rua Seila seila - 123"
+            },
+            "d1": {
+                "titulo": "Tel",
+                "paragrafo": "(99) 99999-9999"
+            },
+            "d2": {
+                "titulo": "Follow us"
+            }
+        }
+    },
+    "footer": {
+        "dados": {
+            "d0": {
+                "titulo": "TechCare",
+                "paragrafo0": "Maintenance, optimization and security for your computer. We take care of your technology with efficiency and quality!",
+                "paragrafo1": "<span>Terms of Use</span><span>Privacy Policy</span>"
+            },
+            "d1": {
+                "titulo": "Questions?",
+                "paragrafo": "Do you have any questions? Contact us via WhatsApp, email or phone. We are ready to help!"
+            },
+            "d2": {
+                "titulo": "Navigation"
+            }
+        },
+        "rodape": {
+            "paragrafo0": "TechCare &copy; 2025 - All rights reserved",
+            "paragrafo1": "Developed by <a href='https://github.com/JoaoVitorDomingos' target='_blank'>João Vitor C. Domingos</a>"
+        }
+    }
+}
