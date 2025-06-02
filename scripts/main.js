@@ -142,13 +142,15 @@ async function mudarIdioma(idioma) {
 
 
     try {
-        const basePath = window.location.pathname
+        let basePath = window.location.pathname
         console.log(basePath)
-        alert(basePath)
 
-        const resposta = await fetch(`../linguas/${idioma}.json`)
+        basePath.includes("TechCare") ? basePath = "/TechCare" : basePath = ""
+
+        const resposta = await fetch(`${basePath}/linguas/${idioma}.json`)
 
         const arqObj = await resposta.json()
+        console.log(arqObj)
 
         //trocarTextos(arqObj)
 
