@@ -144,6 +144,7 @@ async function mudarIdioma(idioma) {
     try {
         const basePath = window.location.pathname
         console.log(basePath)
+        alert(basePath)
 
         const resposta = await fetch(`../linguas/${idioma}.json`)
 
