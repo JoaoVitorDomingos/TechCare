@@ -92,7 +92,7 @@ header #menu_check:checked ~ #menu_expandido {
     font-size: 1.875rem;
 }
 
-#menu_expandido > div.menu_header > span {
+#menu_expandido > div.menu_header > span:first-of-type {
     margin-right: 30px;
 }
 

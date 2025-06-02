@@ -12,7 +12,11 @@ body.dark-mode #menu :where(a, i, .language) {
     color: white;
 }
 
-body.dark-mode #menu_expandido :where(i, p, a):hover {
+body.dark-mode #menu :where(a, i, .language):hover {
+    color: var(--cor_azul);
+}
+
+body.dark-mode #menu_expandido :where(i, .language, a):hover {
     color: var(--cor_azul);
 }
 
