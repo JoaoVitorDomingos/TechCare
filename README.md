@@ -100,19 +100,37 @@ Veja o projeto você mesmo: LINK
 <br>
 
 <h3 id="dark">Dark Mode</h3>
-
+<p>O site possui um Tema Light e um Tema Dark, no qual um deles é definido a partir da preferência do usuário quando a página é carregada, e salvo em <ins>Local Storage</ins> para que sempre que o usuário voltar, esteja como ele deixou.</p>
+<p>Há um botão no menu que troca os tema, onde o ícone de sol representa o Light Mode e o ícone da lua representa o Dark Mode. Sempre que é alterado o tema, é salvo em <ins>Local Storage</ins>.</p>
+<p>O site foi desenvolvido no Tema Light, e o Tema Dark é uma classe, chamada <code>dark-mode</code>, que é adicionada ao body, toda a estilização do Tema Dark está em arquivo CSS separado.</p>
 
 <br>
 <br>
 
 <h3 id="idioma">Troca de idioma</h3>
-
+<p>Há dois idiomas no site, Português Brasileiro e Inglês, no qual é definido também a partir das preferências do usuário, caso o idioma de preferência seja o pt-br, então o site ficará neste idioma, agora, caso não seja, é alterado para inglês. Também é salvado em <ins><ins>Local Storage</ins></ins> o idioma e é possível alterar, clicando no botão no menu.</p>
+<p>Todos os textos, tanto em pt-br quanto em inglês, estão em um arquivo <code>.json</code>, um arquivo para pt-br e outro para inglês. O <code>.json</code> foi estruturado de uma forma que ficasse fácil a navegação para obter o texto.</p>
+<p>Todos os elementos, que possuem texto, tinham dois <code>data-</code> atributos, <code>data-langPath</code> e <code>data-lang</code>, no qual dizia o caminho que precisava percorrer no <code>.json</code> para obter o seguinte texto na linguagem escolhida.</p>
+<div align="center">
+    <img src="" alt="Imagem de um elemento com os dois atributos data-">
+    <img src="" alt="Imagem de uma parte do arquivo .json do pt-br">
+    <img src="" alt="Imagem de uma parte do arquivo .json do en">
+</div>
 
 <br>
 <br>
 
 <h2 id="fontes">📚 Fontes & Créditos</h2>
-
+<p>Tanto a logo da loja quanto a foto que mostra a loja foram feitas por Inteligência Artificial. A logo foi criada pela IA <a href="https://manage.wix.com/logo/maker/esh">Wix Logo Maker</a> e feito algumas edições no <ins>PhotoShop</ins> para finalizar a logo. Já a imagem foi gerada pela IA <a href="https://leonardo.ai/">Leonardo</a>.</p>
+<p>As outras imagens do site foram obtidas através do banco de dados gratuito <a href="https://www.pexels.com/pt-br/">Pexels</a>.</p>
+<p>Todos os ícones presentes no site são do <a href="https://fontawesome.com/icons">FontAwesome</a>, são todos gratuitos.</p>
+<p>E as fontes do site são do <a href="https://fonts.google.com/">Google Fonts</a>, sendo elas: </p>
+<ul>
+  <li>Roboto Slab
+  <li>Open Sans
+  <li>Poppins
+  <li>Montserrat
+</ul>
 
 <br>
 <br>
