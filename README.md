@@ -22,7 +22,7 @@
 
 <br>
 <p align="center">
-    <img src="" alt="Imagem do Projeto" width="800px">
+    <img src="imgs/readme/hero.jpg" alt="Imagem do Projeto" width="800px">
 </p>
 <br>
 
@@ -41,7 +41,7 @@ Veja o projeto você mesmo: LINK
 <h2 id="design">🎨 Design</h2>
 <p>O desing do site foi feito por mim. Foi utilizado o <strong>Figma</strong> para realização do desing.</p>
 <p>Segue o link do projeto no figma: LINK FIGMA</p>
-<p align="center"><img src="" alt="Imagem do projeto no Figma"></p>
+<p align="center"><img src="imgs/readme/figma.jpg" alt="Imagem do projeto no Figma" width="500px"></p>
 
 <br>
 <br>
@@ -51,20 +51,19 @@ Veja o projeto você mesmo: LINK
 <p>A maior diferença no desing para os diferentes tamanhos de telas está no menu, onde em telas menores, de celulares, o menu é um simples menu hamburguer que se expande para a tela toda ao clicado. Para telas médias, tablets, há a logo da empresa na direita e o menu hamburguer na esquerda, expandindo para metada da tela. Agora em telas maiores, o menu é completo.</p>
 <p><strong>Telas Menores:</strong></p>
 <div align="center">
-    <img src="" alt="Imagem do menu em telas menores">
-    <img src="" alt="Imagem do menu expandido em telas menores">
+    <img src="imgs/readme/menu/telas_menores.jpg" alt="Imagem do menu em telas menores" width="200px">
+    <img src="imgs/readme/menu/telas_menores_expandido.jpg" alt="Imagem do menu expandido em telas menores" width="200px">
 </div>
 <br>
 <p><strong>Telas Médias:</strong></p>
 <div align="center">
-    <img src="" alt="Imagem do menu em telas médias">
-    <img src="" alt="Imagem do menu expandido em telas médias">
+    <img src="imgs/readme/menu/telas_medias.jpg" alt="Imagem do menu em telas médias" width="200px">
+    <img src="imgs/readme/menu/telas_medias_expandido.jpg" alt="Imagem do menu expandido em telas médias" width="200px">
 </div>
 <br>
 <p><strong>Telas Maiores:</strong></p>
 <div align="center">
-    <img src="" alt="Imagem do menu em telas maiores">
-    <img src="" alt="Imagem do menu expandido em telas maoires">
+    <img src="imgs/readme/menu/telas_maiores.jpg" alt="Imagem do menu em telas maiores" width="500px">
 </div>
 
 <br>
@@ -87,14 +86,14 @@ Veja o projeto você mesmo: LINK
 <p>Porém, isto gera um problema, quando se expande o menu, ainda é possível rolar a página do site, algo que não deveria ser possível. Então para se prevenir isto, foi criado uma classe chamada <code>no-scroll</code> que é aplicada via Javascript no body sempre que o menu se expande e é retirada quando ele se fecha. Esta classe impede que o usuário role a tela quando o menu se expandir.</p>
 <p>Este ajuste foi feito apenas para as telas menores, já que o menu expandido ocupa a tela toda. Agora em telas médias, o menu apenas ocupa metade da tela, assim sendo, não tem o porquê bloquer o scroll. E em telas maiores, o menu expandido não está presente.</p>
 <div align="center">
-    <img src="" alt="Imagem da classe no-scroll">
-    <img src="" alt="Imagem do código JS referente ao problema">
+    <img src="imgs/readme/js/classe_no_scroll.jpg" alt="Imagem da classe no-scroll" width="200px">
+    <img src="imgs/readme/js/js_no_scroll.jpg" alt="Imagem do código JS referente ao problema" width="500px">
 </div>
 <br>
 <h4>Link não fechando o Menu Expandido</h4>
 <p>Outro problema presente era quando se clicava nos links que estavam no menu expandido. O desejável era que quando clicasse em algum link, o menu se fecha e o usuário fosse redirecionado para o local do link, entretanto o menu não estava fechando.</p>
 <p>Portanto, via Javascript, é forçado o menu a se fechar. No qual, se desmarca o checkbox e dispara um evento de <code>change</code>, para que destrave o scroll da página, que foi travado por causa da classe <code>no-scroll</code>.</p>
-<p align="center"><img src="" alt="Imagem do código JS referente ao problema"></p>
+<p align="center"><img src="imgs/readme/js/js_links.jpg" alt="Imagem do código JS referente ao problema" width="500px"></p>
 
 <br>
 <br>
@@ -112,9 +111,9 @@ Veja o projeto você mesmo: LINK
 <p>Todos os textos, tanto em pt-br quanto em inglês, estão em um arquivo <code>.json</code>, um arquivo para pt-br e outro para inglês. O <code>.json</code> foi estruturado de uma forma que ficasse fácil a navegação para obter o texto.</p>
 <p>Todos os elementos, que possuem texto, tinham dois <code>data-</code> atributos, <code>data-langPath</code> e <code>data-lang</code>, no qual dizia o caminho que precisava percorrer no <code>.json</code> para obter o seguinte texto na linguagem escolhida.</p>
 <div align="center">
-    <img src="" alt="Imagem de um elemento com os dois atributos data-">
-    <img src="" alt="Imagem de uma parte do arquivo .json do pt-br">
-    <img src="" alt="Imagem de uma parte do arquivo .json do en">
+    <img src="imgs/readme/js/json_pt_br.jpg" alt="Imagem de uma parte do arquivo .json do pt-br" width="400px">
+    <img src="imgs/readme/js/json_en.jpg" alt="Imagem de uma parte do arquivo .json do en" width="400px">
+    <img src="imgs/readme/js/atributos_data.jpg" alt="Imagem de um elemento com os dois atributos data-" width="700px">
 </div>
 
 <br>
@@ -136,7 +135,7 @@ Veja o projeto você mesmo: LINK
 <br>
 
 <h2 id="licenca">📃 Licença</h2>
-Veja a lincença do projeto: <a href="">MIT License</a>
+Veja a lincença do projeto: <a href="https://github.com/JoaoVitorDomingos/TechCare?tab=MIT-1-ov-file">MIT License</a>
 
 <br>
 <br>
