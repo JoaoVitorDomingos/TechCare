@@ -194,3 +194,10 @@ function acessarPrefUsuLing() {
 iconesLingua.forEach(i => {
     i.addEventListener("click", trocarLinguagem)
 });
+
+// Evitar o evento de submit do formulario
+const formulario = document.querySelector("#contato>form")
+
+formulario.addEventListener("submit", evt => {
+    evt.preventDefault();
+})
