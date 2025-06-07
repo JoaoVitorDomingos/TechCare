@@ -33,14 +33,16 @@
 <br>
 
 <h2 id="acesso">🚀 Acesse o Projeto</h2>
-Veja o projeto você mesmo: LINK
+<p>Veja o projeto você mesmo: https://joaovitordomingos.github.io/TechCare/</p>
 
 <br>
 <br>
 
 <h2 id="design">🎨 Design</h2>
 <p>O desing do site foi feito por mim. Foi utilizado o <strong>Figma</strong> para realização do desing.</p>
-<p>Segue o link do projeto no figma: LINK FIGMA</p>
+<p>Segue o link do projeto no figma: <a href="https://www.figma.com/design/b8TuckdaemvDhMGGeMRBIi/TechCare?node-id=0-1&t=yKTBIiJv09XAm28Q-1">LINK FIGMA</a></p>
+<p><strong>Senha:</strong> TechCare</p>
+<p><strong>OBS: </strong>Por favor, <ins>não adicionar comentários!</ins></p>
 <p align="center"><img src="imgs/readme/figma.jpg" alt="Imagem do projeto no Figma" width="500px"></p>
 
 <br>
@@ -57,13 +59,13 @@ Veja o projeto você mesmo: LINK
 <br>
 <p><strong>Telas Médias:</strong></p>
 <div align="center">
-    <img src="imgs/readme/menu/telas_medias.jpg" alt="Imagem do menu em telas médias" width="200px">
-    <img src="imgs/readme/menu/telas_medias_expandido.jpg" alt="Imagem do menu expandido em telas médias" width="200px">
+    <img src="imgs/readme/menu/telas_medias.jpg" alt="Imagem do menu em telas médias" width="300px">
+    <img src="imgs/readme/menu/telas_medias_expandido.jpg" alt="Imagem do menu expandido em telas médias" width="300px">
 </div>
 <br>
 <p><strong>Telas Maiores:</strong></p>
 <div align="center">
-    <img src="imgs/readme/menu/telas_maiores.jpg" alt="Imagem do menu em telas maiores" width="500px">
+    <img src="imgs/readme/menu/telas_maiores.jpg" alt="Imagem do menu em telas maiores" width="600px">
 </div>
 
 <br>
@@ -82,8 +84,8 @@ Veja o projeto você mesmo: LINK
 
 <h3 id="menu">Ajustes no menu expandido</h3>
 <h4>Scroll com Menu Expandido</h4>
-<p>A funcionalidade do menu é puramente CSS, não foi feito nada em Javascript. Há um checkbox, com display none. que quando se clica no menu hamburguer, que está dentro de uma label, o checkbox se ativa, assim expandindo a uma div, chamada menu expandido, que, pelo nome, é o menu expandido, ocupando toda a tela com o atributo position em fixed.</p>
-<p>Porém, isto gera um problema, quando se expande o menu, ainda é possível rolar a página do site, algo que não deveria ser possível. Então para se prevenir isto, foi criado uma classe chamada <code>no-scroll</code> que é aplicada via Javascript no body sempre que o menu se expande e é retirada quando ele se fecha. Esta classe impede que o usuário role a tela quando o menu se expandir.</p>
+<p>A funcionalidade do menu é puramente CSS, não foi feito nada em Javascript. Há um checkbox, com display none. que quando se clica no menu hamburguer, que está dentro de uma label, o checkbox se ativa, assim expandindo a uma div, chamada menu expandido, que, pelo nome, é o menu expandido, ocupando toda a tela com o atributo <code>position</code> em <code>fixed</code>.</p>
+<p>Porém, isto gera um problema, quando se expande o menu, ainda é possível rolar a página do site, algo que não deveria ser possível. Então para prevenir este comportamento, foi criado uma classe chamada <code>no-scroll</code> que é aplicada via Javascript no body sempre que o menu se expande e é retirada quando ele se fecha. Esta classe impede que o usuário role a tela quando o menu se expandir.</p>
 <p>Este ajuste foi feito apenas para as telas menores, já que o menu expandido ocupa a tela toda. Agora em telas médias, o menu apenas ocupa metade da tela, assim sendo, não tem o porquê bloquer o scroll. E em telas maiores, o menu expandido não está presente.</p>
 <div align="center">
     <img src="imgs/readme/js/classe_no_scroll.jpg" alt="Imagem da classe no-scroll" width="200px">
@@ -91,8 +93,8 @@ Veja o projeto você mesmo: LINK
 </div>
 <br>
 <h4>Link não fechando o Menu Expandido</h4>
-<p>Outro problema presente era quando se clicava nos links que estavam no menu expandido. O desejável era que quando clicasse em algum link, o menu se fecha e o usuário fosse redirecionado para o local do link, entretanto o menu não estava fechando.</p>
-<p>Portanto, via Javascript, é forçado o menu a se fechar. No qual, se desmarca o checkbox e dispara um evento de <code>change</code>, para que destrave o scroll da página, que foi travado por causa da classe <code>no-scroll</code>.</p>
+<p>Outro problema presente era quando se clicava nos links que estavam no menu expandido. O desejável era que quando clicasse em algum link, o menu fechasse e o usuário fosse redirecionado para o local do link, entretanto isto não acontecia.</p>
+<p>Portanto, via Javascript, é forçado o menu a se fechar. No qual, se desmarca o checkbox e dispara um evento de <code>change</code>, assim chamando a função que coloca ou retira a classe <code>no-scroll</code> do <code>body</code>, para que destrave o scroll da página.</p>
 <p align="center"><img src="imgs/readme/js/js_links.jpg" alt="Imagem do código JS referente ao problema" width="500px"></p>
 
 <br>
@@ -110,11 +112,9 @@ Veja o projeto você mesmo: LINK
 <p>Há dois idiomas no site, Português Brasileiro e Inglês, no qual é definido também a partir das preferências do usuário, caso o idioma de preferência seja o pt-br, então o site ficará neste idioma, agora, caso não seja, é alterado para inglês. Também é salvado em <ins><ins>Local Storage</ins></ins> o idioma e é possível alterar, clicando no botão no menu.</p>
 <p>Todos os textos, tanto em pt-br quanto em inglês, estão em um arquivo <code>.json</code>, um arquivo para pt-br e outro para inglês. O <code>.json</code> foi estruturado de uma forma que ficasse fácil a navegação para obter o texto.</p>
 <p>Todos os elementos, que possuem texto, tinham dois <code>data-</code> atributos, <code>data-langPath</code> e <code>data-lang</code>, no qual dizia o caminho que precisava percorrer no <code>.json</code> para obter o seguinte texto na linguagem escolhida.</p>
-<div align="center">
-    <img src="imgs/readme/js/json_pt_br.jpg" alt="Imagem de uma parte do arquivo .json do pt-br" width="400px">
-    <img src="imgs/readme/js/json_en.jpg" alt="Imagem de uma parte do arquivo .json do en" width="400px">
-    <img src="imgs/readme/js/atributos_data.jpg" alt="Imagem de um elemento com os dois atributos data-" width="700px">
-</div>
+<p align="center"><img src="imgs/readme/js/json_pt_br.jpg" alt="Imagem de uma parte do arquivo .json do pt-br" width="600px"></p>
+<p align="center"><img src="imgs/readme/js/json_en.jpg" alt="Imagem de uma parte do arquivo .json do en" width="600px"></p>
+<p align="center"><img src="imgs/readme/js/atributos_data.jpg" alt="Imagem de um elemento com os dois atributos data-" width="800px"></p>
 
 <br>
 <br>
