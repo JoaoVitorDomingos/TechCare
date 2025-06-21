@@ -154,7 +154,7 @@ header #menu_check:checked ~ #menu_expandido {
     position: absolute;
     top: 0;
     left: 0;
-    opacity: .3;
+    opacity: .7;
 
     background-color: black;
     height: 100%;
