@@ -33,7 +33,7 @@
 <br>
 
 <h2 id="acesso">🚀 Acesse o Projeto</h2>
-<p>Veja o projeto você mesmo: https://joaovitordomingos.github.io/TechCare/</p>
+<p>Veja o projeto você mesmo: <a href="https://joaovitordomingos.github.io/TechCare/" target="_blank">TechCare</a></p>
 
 <br>
 <br>
