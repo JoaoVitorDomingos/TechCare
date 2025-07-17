@@ -206,10 +206,22 @@ iconesLingua.forEach(i => {
 });
 
 // Definir o tema da página de confirmação de formulário
-function theme() {
+function themeLang() {
     if(localStorage.getItem("darkMode") == "ativado") {
         const bodyConfirForm = document.querySelector("body")
 
         bodyConfirForm.classList.add("dark_mode")
+    }
+
+    if(localStorage.getItem("idioma") == "en") {
+        const titulo = document.querySelector(".titulo")
+        const p1 = document.querySelector(".p1")
+        const p2 = document.querySelector(".p2")
+        const link = document.querySelector(".link")
+
+        titulo.innerHTML = "Thanks!"
+        p1.innerHTML = "The form was submitted successfully! We will contact you shortly."
+        p2.innerHTML = "A copy of the form has been sent to your email."
+        link.innerHTML = "Return to the main page"
     }
 }
