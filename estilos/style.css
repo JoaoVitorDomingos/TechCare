@@ -68,7 +68,7 @@ header #menu_check:checked ~ #menu_expandido {
 
 
 
-#menu_expandido :where(i, p, a) {
+#menu_expandido :where(i,  p, a) {
     color: white;
     transition: .4s;
 }
@@ -125,7 +125,7 @@ header #menu_check:checked ~ #menu_expandido {
     justify-content: center;
 }
 
-#menu_expandido div.menu_footer p.btn_whats {
+#menu_expandido div.menu_footer .btn_whats {
     display: inline;
     font-size: 1.5rem;
 }
