@@ -396,10 +396,31 @@ form :where(input:not(input[type="submit"]), textarea) {
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.393);
 }
 
+form :where(input, textarea):hover {
+    cursor: pointer;
+}
+
 form :where(input:not(input[type="submit"]), textarea):focus {
     outline-color: var(--cor_azul);
     box-shadow: none;
     background-color: #cfe5fd;
+    cursor: text;
+}
+
+form input:-webkit-autofill {
+    background-color: transparent !important;
+    -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.393), 
+                        0 0 0 1000px #EDEDED inset !important;
+    -webkit-text-fill-color: #000 !important;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+form :where(input, textarea):focus::placeholder {
+    color: black;
+}
+
+form :where(input, textarea):hover::placeholder {
+    color: black;
 }
 
 form textarea {

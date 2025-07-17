@@ -203,12 +203,17 @@
         <section id="contato">
             <h1 data-langPath="contato" data-lang="titulo">Formulário de Contato</h1>
 
-            <form method="post">
+            <form action="https://formsubmit.co/guilhermedosgames6@gmail.com" method="post">
                 <input type="text" name="form_nome" id="form_nome" placeholder="Digite seu nome" required autocomplete="username" data-langPath="contato-form" data-lang="i0">
-                <input type="email" name="form_email" id="form_email" placeholder="Digite seu email" required autocomplete="email" data-langPath="contato-form" data-lang="i1">
+                <input type="email" name="email" id="form_email" placeholder="Digite seu email" required autocomplete="email" data-langPath="contato-form" data-lang="i1">
                 <textarea name="form_msg" id="form_msg" rows="5" placeholder="Digite sua mensagem" required data-langPath="contato-form" data-lang="i2"></textarea>
 
                 <input type="submit" value="Enviar" data-langPath="contato-form" data-lang="i3">
+
+                <!-- Configuração do FormSubmit -->
+                <input type="hidden" name="_subject" value="Entrando em contato">
+                <input type="hidden" name="_autoresponse" value="Recebemos sua mensagem! Em breve entramos em contato!">
+                
             </form>
 
             <div class="contato_dados">
