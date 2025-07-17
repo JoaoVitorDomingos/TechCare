@@ -86,6 +86,16 @@ function acessarPrefUsu() {
             mudarIdioma("en")
         }
     }
+
+    // Adiciona a url ao input que redireciona para a página de confirmação de formulário
+    const inputConfirForm = document.querySelector("#inputConfirForm")
+
+    let basePath = window.location.pathname
+
+    basePath.includes("TechCare") ? basePath = "/TechCare" : basePath = "http://127.0.0.1:5500"
+
+    basePath += "/confirmacao_form.html"
+    inputConfirForm.setAttribute("value", basePath)
 }
 
 iconesTheme.forEach(icone => {
@@ -194,3 +204,12 @@ function acessarPrefUsuLing() {
 iconesLingua.forEach(i => {
     i.addEventListener("click", trocarLinguagem)
 });
+
+// Definir o tema da página de confirmação de formulário
+function theme() {
+    if(localStorage.getItem("darkMode") == "ativado") {
+        const bodyConfirForm = document.querySelector("body")
+
+        bodyConfirForm.classList.add("dark_mode")
+    }
+}
